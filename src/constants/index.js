@@ -1,0 +1,335 @@
+import { tesla, mdlz, scale,freelance, SanRoca, VivRoca, anyone } from "../assets/images";
+import {
+    car,
+    contact,
+    css,
+    estate,
+    sql,
+    redis,
+    git,
+    github,
+    html,
+    bank,
+    javascript,
+    linkedin,
+    mongodb,
+    motion,
+    mui,
+    nextjs,
+    nodejs,
+    pricewise,
+    react,
+    redux,
+    sass,
+    snapgram,
+    summiz,
+    tailwindcss,
+    threads,
+    typescript,
+    powerbi,
+    excel,
+    python,
+    airflow,
+    flask,
+    gcp,
+    pytorch,
+    tensorflow,
+    docker,
+    dataflow,
+    matlab,
+    R,
+    pandas,
+    numpy,
+    tableau,
+    FinChatbot,
+    sentimentAnalysis,
+    dog,
+    ecommerce,
+    university,
+    sigma,
+    survey,
+    house
+} from "../assets/icons";
+
+export const skills = [
+    {
+        imageUrl: R,
+        name: "R",
+        type: "Programming Language",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Code Language",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: powerbi,
+        name: "Power BI",
+        type: "Visualization",
+    },
+    {
+        imageUrl: tableau,
+        name: "Tableau",
+        type: "Visualization",
+    },
+    {
+        imageUrl: pandas,
+        name: "Pandas",
+        type: "Data manipulation library",
+    },
+    {
+        imageUrl: numpy,
+        name: "Numpy",
+        type: "Numerical computing library",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Containerization platform",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
+    {
+        imageUrl: tensorflow,
+        name: "Tensorflow",
+        type: "Deep learning library",
+    },
+    {
+        imageUrl: pytorch,
+        name: "Pytorch",
+        type: "Deep Learning Library",
+    },
+    {
+        imageUrl: excel,
+        name: "Excel",
+        type: "Data Manipulation",
+    },
+    {
+        imageUrl: sql,
+        name: "SQL",
+        type: "Database",
+    },
+    {
+        imageUrl: dataflow,
+        name: "Dataflow",
+        type: "Data transformation tool",
+    },
+    {
+        imageUrl: redis,
+        name: "Redis",
+        type: "Caching and Storage",
+    },
+    {
+        imageUrl: flask,
+        name: "Flask",
+        type: "Web development framework",
+    },
+    {
+        imageUrl: gcp,
+        name: "GCP",
+        type: "Cloud",
+    },
+    {
+        imageUrl: airflow,
+        name: "Airflow",
+        type: "Data Pipeline Orchestration",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    }
+];
+
+export const experiences = [
+    
+    {
+        title: "Machine Learning Reinforcement Learning QA",
+        company_name: "Scale",
+        icon: scale,
+        iconBg: "#49484A",
+        date: "Nov 2023 - Now",
+        points: [
+            "Responsable for Quality Assurance on training for big machine learning models in different sets of coding languages and problems.",
+            "The models to train come from companys such as Microsoft, Open AI, Meta, NVIDIA, Cohere, etc.",
+            "Collaborating with cross-functional teams and other developers to create high-quality training data.",
+        ],
+    },
+    {
+        title: "Analytics Manager",
+        company_name: "Mondelez",
+        icon: mdlz,
+        iconBg: "#C2A4DA",
+        date: "Apr 2023 - Now",
+        points: [
+            "Combined Data Engineer and Analyst roles.",
+            "Developed and sustained data infrastructure for Latin America Supply Chain departments using automation tools like Dataflows, SQL, Rscripts, Alteryx, Power Automate, & VBS for SAP data extraction.",
+            "Built a suite of Power BI tools for the Planning Transformation project, impacting Advanced Planning Optimization (APO) and Demand Resource Planning (DRP).",
+            "Participated in company congress, providing constructive feedback to developers.",
+          ],
+    },
+    {
+        title: "Machine Learning Engineer",
+        company_name: "Anyone",
+        icon: anyone,
+        iconBg: "#182B56",
+        date: "Feb 2023 - Aug 2023",
+        points: [
+            "Developed and deployed ML models with PyTorch, TensorFlow, and Scikit-learn.",
+            "Designed Financial Advisor Chatbot with real-time web scraping.",
+            "Automated e-commerce data with Apache Airflow.",
+            "Built home credit repayment model for banks.",
+            "Created two Flask aplications, one for animal and the other for vehicle classification apps.",
+            "Selective fellowship (<2% acceptance rate): 650+ hours in NLP, Computer Vision, Predictive Analysis, AWS, Docker, Linux, Flask, Redis for MLOps.",
+          ],
+    },
+    {
+        title: "Freelance Data Analyst",
+        company_name: "Gonzalo Diez",
+        icon: freelance,
+        iconBg: "#E9F3F6",
+        date: "Sep 2022 - Aug 2023",
+        points: [
+            "Creation of Machine Learning prediction models. Most notable one for the startup 'WeDoIt!' a Live Stream Commerce.",
+            "Remote ETL pipeline consultation for optimized data processes.",
+            "Expertise in Data Architecture, ensuring efficiency in Big Data tools like Dataflows.",
+            "Developed and tutored dashboard creation, notably implementing a Power BI dashboard for BIU University in Miami, streamlining student and faculty management.",
+          ],
+    },
+    {
+        title: "Industrial Process Optimization Professional",
+        company_name: "Sanitarios Roca",
+        icon: SanRoca,
+        iconBg: "#E9F3F6",
+        date: "Apr 2022 - Jan 2023",
+        points: [
+            "Led Lean Six Sigma project to optimize ceramic paste milling efficiency using MiniTab, Power BI, SQL, and Excel.",
+            "Managed Barbotine Production Department, overseeing process and data analysis with two supervisors and nine operators.",
+            "Monitored and controlled semi-finished goods and raw material inventories, applying data analysis techniques.",
+            "Conducted personnel training and generated reports for production management.",
+          ],
+    },
+    {
+        title: "Data Analyst",
+        company_name: "Viviendas Roca",
+        icon: VivRoca,
+        iconBg: "#F1EF81",
+        date: "Aug 2021 - May 2022",
+        points: [
+            "Developed interactive Power BI dashboard for logistics and sales.",
+            "Utilized Power Query for report creation and analysis.",
+            "Established and maintained KPIs for all company sectors.",
+            "Designed and optimized a new production line using Lean principles.",
+            "Maintained synergy with the purchasing department through reports.",
+          ],
+    },
+];
+
+export const socialLinks = [
+    {
+        name: 'Contact',
+        iconUrl: contact,
+        link: '/contact',
+    },
+    {
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/YourGitHubUsername',
+    },
+    {
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+    }
+];
+
+export const projects = [
+    {
+        iconUrl: FinChatbot,
+        theme: 'btn-back-red',
+        name: 'Financial Advisor Chatbot',
+        description: 'Developed a web application Chatbot that uses Large Language Models from Open AI to give financial advised based on big dataset, web search and yahoo finance.',
+        link: 'https://github.com/gonzalodiez/FinancialAdvisorChatbot',
+    },
+    {
+        iconUrl: sentimentAnalysis,
+        theme: 'btn-back-green',
+        name: 'Sentiment Analysis',
+        description: 'Sentiment analysis project for movie reviews with binary classification (positive/negative) and comprehensive text preprocessing.',
+        link: 'https://github.com/gonzalodiez/Sentiment_Analysis_LLM',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Car Classification App',
+        description: 'Multi classification Machine Learning model that can indentify different vehicles using Tensorflow and Docker.',
+        link: 'https://github.com/gonzalodiez/Vehicle-Classification-App',
+    },
+    {
+        iconUrl: dog,
+        theme: 'btn-back-pink',
+        name: 'Animals Classification App',
+        description: 'App that can indentify animals using Machine Learning, Convolutional Neural Networks, Flask API and Docker.',
+        link: 'https://github.com/gonzalodiez/Image_Classification_Web_App',
+    },
+    {
+        iconUrl: bank,
+        theme: 'btn-back-black',
+        name: 'Home Credit Default Risk ML Model',
+        description: 'Machine Learning model for home credit default risk with AUC-ROC as the evaluation metric.',
+        link: 'https://github.com/adrianhajdin/projects_realestate',
+    },
+    {
+        iconUrl: ecommerce,
+        theme: 'btn-back-yellow',
+        name: 'E-Commercer data pipeline',
+        description: 'Engineered an ELT data pipeline to analyze E-commerce data from multiple sources where I utilized Python, Pandas, and SQL to provide insights on revenue and delivery.',
+        link: 'https://github.com/gonzalodiez/E-Commerce_Data_Pipeline',
+    },
+    {
+        iconUrl: university,
+        theme: 'btn-back-red',
+        name: 'Dashboard for Broadway International University',
+        description: 'During my freelance period a I developed a dashboard to check on students and profesors overall performance for this Private Virtual University.',
+        link: 'https://github.com/gonzalodiez/BIU-Dashboard',
+    },
+    {
+        iconUrl: sigma,
+        theme: 'btn-back-green',
+        name: 'Lean Six Sigma Project',
+        description: 'The project entails optimizing the manufacturing process for the slip and It was carried out within the production division of Sanitarios Roca S.A., and Ricardo Benitez Rubalcaba from Austral University provided the certification.',
+        link: 'https://github.com/gonzalodiez/Lean-Six-Sigma/blob/main/LeanSixSigma%20GB%20blurred.pdf',
+    },
+    {
+        iconUrl: survey,
+        theme: 'btn-back-blue',
+        name: 'Dashboard for Data Professionals',
+        description: 'Visualizations for a survey that was completed by data experts from around the world for popular YouTuber AlexTheAnalyst.',
+        link: 'https://github.com/gonzalodiez/Data-Professionals-Survey',
+    },
+    {
+        iconUrl: house,
+        theme: 'btn-back-pink',
+        name: 'Dashboard for Housing Company',
+        description: 'Housing corporation wanted to analyze succesful deliveries across the country.',
+        link: 'https://github.com/gonzalodiez/Housing-Company-Dashboard',
+    }
+];
