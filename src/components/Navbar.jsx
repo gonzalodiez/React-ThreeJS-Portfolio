@@ -1,11 +1,13 @@
 import { NavLink } from 'react-router-dom';
+import { logoFull } from '../assets/images';
+
 
 const Navbar = () => {
   return (
     <header className='header'>
       
       <NavLink to="/" className="text-xl flex items-center justify-between font-bold justify-center">
-        <img src="/src/assets/logo full.png" alt="Logo" className="pr-2 w-15 h-10" />
+        <img src={logoFull} alt="Logo" className="pr-2 w-15 h-10" />
         <p className='blue-gradient_text'>Gonzalo Diez</p>
       </NavLink>
       

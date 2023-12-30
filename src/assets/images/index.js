@@ -10,10 +10,12 @@ import freelance from './freelance.png'
 import SanRoca from './SanRoca.png'
 import VivRoca from './VivRoca.png'
 import anyone from './anyone.png'
+import logoFull from './logoFull.png'
 
 
 export {
     hero,
+    logoFull,
     anyone,
     VivRoca,
     SanRoca,
